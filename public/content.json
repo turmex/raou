@@ -1,0 +1,608 @@
+{
+  "site": {
+    "name": "RAOU",
+    "tagline": "Curated Travel Experiences",
+    "description": "Curated travel experiences that go beyond the ordinary. We craft bespoke journeys designed to inspire curiosity, awaken wonder, and create lasting memories.ss",
+    "companyInfo": {
+      "fullName": "RAOU - Destination Management Company",
+      "locations": [
+        "Berlin",
+        "Istanbul"
+      ],
+      "email": "info@raou.com",
+      "phone": "+1 (555) 123-4567"
+    },
+    "social": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com"
+    }
+  },
+  "navigation": {
+    "logo": "/src/assets/logo.png",
+    "menuItems": [
+      {
+        "label": "HOME",
+        "path": "/"
+      },
+      {
+        "label": "DESTINATIONS",
+        "path": "/destinations",
+        "hasDropdown": true
+      },
+      {
+        "label": "EXPERIENCES",
+        "path": "/experiences",
+        "hasDropdown": true
+      },
+      {
+        "label": "ABOUT",
+        "path": "/about"
+      },
+      {
+        "label": "CONTACT",
+        "path": "/contact"
+      }
+    ],
+    "ctaButton": {
+      "label": "Start Your Trip",
+      "path": "/trip-finder"
+    }
+  },
+  "destinations": [
+    {
+      "region": "South America",
+      "slug": "south-america",
+      "countries": [
+        "Argentina",
+        "Brazil",
+        "Chile",
+        "Peru",
+        "Colombia",
+        "Ecuador"
+      ],
+      "countryLinks": {
+        "Argentina": "/destinations/argentina",
+        "Brazil": "/destinations/brazil",
+        "Chile": "/destinations/chile",
+        "Peru": "/destinations/peru",
+        "Colombia": "/destinations/colombia",
+        "Ecuador": "/destinations/ecuador"
+      },
+      "image": "/src/assets/remote-destinations.jpg",
+      "description": "Discover the vibrant cultures and breathtaking landscapes of South America"
+    },
+    {
+      "region": "Central America",
+      "slug": "central-america",
+      "countries": [
+        "Costa Rica",
+        "Panama",
+        "Guatemala",
+        "Belize"
+      ],
+      "countryLinks": {
+        "Costa Rica": "/destinations/costa-rica",
+        "Panama": "/destinations/panama",
+        "Guatemala": "/destinations/guatemala",
+        "Belize": "/destinations/belize"
+      },
+      "image": "/src/assets/unusual-holidays.jpg",
+      "description": "Explore the natural wonders and ancient civilizations of Central America"
+    },
+    {
+      "region": "Asia",
+      "slug": "asia",
+      "countries": [
+        "Japan",
+        "Thailand",
+        "Indonesia",
+        "Vietnam",
+        "India",
+        "Sri Lanka"
+      ],
+      "countryLinks": {
+        "Japan": "/destinations/japan",
+        "Thailand": "/destinations/thailand",
+        "Indonesia": "/destinations/indonesia",
+        "Vietnam": "/destinations/vietnam",
+        "India": "/destinations/india",
+        "Sri Lanka": "/destinations/sri-lanka"
+      },
+      "image": "/src/assets/unusual-holidays.jpg",
+      "description": "Immerse yourself in the rich traditions and modern marvels of Asia"
+    },
+    {
+      "region": "Europe",
+      "slug": "europe",
+      "countries": [
+        "Italy",
+        "France",
+        "Spain",
+        "Greece",
+        "Portugal",
+        "Switzerland"
+      ],
+      "countryLinks": {
+        "Italy": "/destinations/italy",
+        "France": "/destinations/france",
+        "Spain": "/destinations/spain",
+        "Greece": "/destinations/greece",
+        "Portugal": "/destinations/portugal",
+        "Switzerland": "/destinations/switzerland"
+      },
+      "image": "/src/assets/bespoke-travel.jpg",
+      "description": "Experience the timeless elegance and cultural treasures of Europe"
+    },
+    {
+      "region": "North America",
+      "slug": "north-america",
+      "countries": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ],
+      "countryLinks": {
+        "USA": "/destinations/usa",
+        "Canada": "/destinations/canada",
+        "Mexico": "/destinations/mexico"
+      },
+      "image": "/src/assets/family-holidays.jpg",
+      "description": "From cosmopolitan cities to natural wonders across North America"
+    },
+    {
+      "region": "Africa",
+      "slug": "africa",
+      "countries": [
+        "South Africa",
+        "Kenya",
+        "Tanzania",
+        "Morocco",
+        "Botswana",
+        "Rwanda"
+      ],
+      "countryLinks": {
+        "South Africa": "/destinations/south-africa",
+        "Kenya": "/destinations/kenya",
+        "Tanzania": "/destinations/tanzania",
+        "Morocco": "/destinations/morocco",
+        "Botswana": "/destinations/botswana",
+        "Rwanda": "/destinations/rwanda"
+      },
+      "image": "/src/assets/safari-holidays.jpg",
+      "description": "Witness the untamed beauty and incredible wildlife of Africa"
+    },
+    {
+      "region": "The Caribbean",
+      "slug": "the-caribbean",
+      "countries": [
+        "Bahamas",
+        "Jamaica",
+        "Barbados",
+        "St. Lucia"
+      ],
+      "countryLinks": {
+        "Bahamas": "/destinations/bahamas",
+        "Jamaica": "/destinations/jamaica",
+        "Barbados": "/destinations/barbados",
+        "St. Lucia": "/destinations/st-lucia"
+      },
+      "image": "/src/assets/honeymoons.jpg",
+      "description": "Relax in paradise with pristine beaches and crystal-clear waters"
+    },
+    {
+      "region": "Middle East",
+      "slug": "middle-east",
+      "countries": [
+        "UAE",
+        "Jordan",
+        "Oman",
+        "Israel"
+      ],
+      "countryLinks": {
+        "UAE": "/destinations/uae",
+        "Jordan": "/destinations/jordan",
+        "Oman": "/destinations/oman",
+        "Israel": "/destinations/israel"
+      },
+      "image": "/src/assets/bespoke-travel.jpg",
+      "description": "Discover ancient history and modern luxury in the Middle East"
+    }
+  ],
+  "experiences": {
+    "who": [
+      {
+        "title": "Family Holidays",
+        "slug": "family",
+        "link": "/experiences/family",
+        "icon": "Users",
+        "image": "/src/assets/family-holidays.jpg",
+        "description": "Create unforgettable memories with tailored family adventures that delight every generation.",
+        "longDescription": "Our family holidays are designed to bring generations together through shared experiences and discoveries. We understand that traveling with family requires careful planning, from kid-friendly activities to accommodations that suit everyone's needs."
+      },
+      {
+        "title": "Honeymoons",
+        "slug": "honeymoons",
+        "link": "/experiences/honeymoons",
+        "icon": "Heart",
+        "image": "/src/assets/honeymoons.jpg",
+        "description": "Celebrate your love story with romantic escapes to the world's most enchanting destinations.",
+        "longDescription": "Begin your journey together with a honeymoon crafted to perfection. From secluded beaches to cultural immersions, we design experiences that celebrate your unique love story."
+      },
+      {
+        "title": "Couples Holidays",
+        "slug": "couples",
+        "link": "/experiences/couples",
+        "icon": "Heart",
+        "image": "/src/assets/honeymoons.jpg",
+        "description": "Reconnect and rediscover romance with bespoke couple's getaways.",
+        "longDescription": "Whether celebrating an anniversary or simply seeking quality time together, our couple's holidays offer the perfect blend of adventure, relaxation, and romance."
+      },
+      {
+        "title": "Solo Holidays",
+        "slug": "solo",
+        "link": "/experiences/solo",
+        "icon": "Compass",
+        "image": "/src/assets/remote-destinations.jpg",
+        "description": "Embark on transformative solo journeys of self-discovery and adventure.",
+        "longDescription": "Solo travel is about freedom, self-discovery, and connecting with the world on your own terms. We create safe, enriching experiences for independent travelers."
+      },
+      {
+        "title": "Group Holidays",
+        "slug": "group",
+        "link": "/experiences/group",
+        "icon": "Users",
+        "image": "/src/assets/family-holidays.jpg",
+        "description": "Share extraordinary experiences with friends and like-minded travelers.",
+        "longDescription": "From corporate retreats to friend reunions, our group holidays are designed to foster connection and create shared memories."
+      }
+    ],
+    "what": [
+      {
+        "title": "Safari Holidays",
+        "slug": "safari",
+        "link": "/experiences/safari",
+        "icon": "Mountain",
+        "image": "/src/assets/safari-holidays.jpg",
+        "description": "Witness Africa's magnificent wildlife in their natural habitat.",
+        "longDescription": "Experience the thrill of encountering Africa's Big Five and beyond. Our safari holidays combine luxury accommodations with expert guides for unforgettable wildlife encounters."
+      },
+      {
+        "title": "Remote Destinations",
+        "slug": "remote",
+        "link": "/experiences/remote",
+        "icon": "Globe",
+        "image": "/src/assets/remote-destinations.jpg",
+        "description": "Venture off the beaten path to discover hidden gems and untouched landscapes.",
+        "longDescription": "For those seeking true adventure, our remote destination experiences take you to the world's most pristine and undiscovered places."
+      },
+      {
+        "title": "Adventure Holidays",
+        "slug": "adventure",
+        "link": "/experiences/adventure",
+        "icon": "Mountain",
+        "image": "/src/assets/safari-holidays.jpg",
+        "description": "Push your boundaries with thrilling outdoor experiences and adrenaline-fueled activities.",
+        "longDescription": "From mountain trekking to water sports, our adventure holidays are designed for those who seek excitement and physical challenges."
+      },
+      {
+        "title": "Beach Holidays",
+        "slug": "beach",
+        "link": "/experiences/beach",
+        "icon": "Palmtree",
+        "image": "/src/assets/honeymoons.jpg",
+        "description": "Unwind on pristine shores with crystal-clear waters and golden sands.",
+        "longDescription": "Escape to paradise with our curated beach destinations, offering the perfect blend of relaxation and tropical beauty."
+      },
+      {
+        "title": "Unusual Holidays",
+        "slug": "unusual",
+        "link": "/experiences/unusual",
+        "icon": "Sparkles",
+        "image": "/src/assets/unusual-holidays.jpg",
+        "description": "Experience the extraordinary with unique and unconventional travel experiences.",
+        "longDescription": "For travelers seeking something different, our unusual holidays offer one-of-a-kind experiences you won't find anywhere else."
+      },
+      {
+        "title": "Slow Holidays",
+        "slug": "slow",
+        "link": "/experiences/slow",
+        "icon": "Heart",
+        "image": "/src/assets/bespoke-travel.jpg",
+        "description": "Embrace mindful travel and deep cultural immersion at a relaxed pace.",
+        "longDescription": "Slow down and truly connect with your destination. Our slow holidays emphasize quality over quantity, allowing for meaningful experiences."
+      },
+      {
+        "title": "Train Travel",
+        "slug": "train",
+        "link": "/experiences/train",
+        "icon": "Train",
+        "image": "/src/assets/bespoke-travel.jpg",
+        "description": "Journey through stunning landscapes aboard the world's most iconic railways.",
+        "longDescription": "Experience the romance of rail travel with journeys on legendary trains through breathtaking scenery."
+      }
+    ],
+    "remarkable": [
+      {
+        "title": "Eclipse Service",
+        "slug": "eclipse",
+        "link": "/experiences/eclipse",
+        "icon": "Sparkles",
+        "image": "/src/assets/remote-destinations.jpg",
+        "description": "Witness nature's most spectacular phenomenon with expertly curated eclipse viewing experiences worldwide.",
+        "longDescription": "Our eclipse service provides exclusive access to the best viewing locations, expert astronomers, and luxury accommodations for this once-in-a-lifetime celestial event."
+      },
+      {
+        "title": "Proposal Travel",
+        "slug": "proposal",
+        "link": "/experiences/proposal",
+        "icon": "Heart",
+        "image": "/src/assets/honeymoons.jpg",
+        "description": "Create the perfect moment with personalized proposal experiences in the world's most romantic locations.",
+        "longDescription": "Let us help you create an unforgettable proposal. From intimate settings to grand gestures, we handle every detail to ensure your moment is perfect."
+      }
+    ]
+  },
+  "home": {
+    "hero": {
+      "image": "/src/assets/hero-background.jpg",
+      "subtitle": "",
+      "title": "Uniquely Yours",
+      "description": "Bespoke journeys designed to inspire curiosity, awaken wonder, and create lifetime experiences.",
+      "primaryCta": {
+        "label": "Start Your Journey",
+        "path": "/trip-finder"
+      },
+      "secondaryCta": {
+        "label": "Explore Destinations",
+        "path": "/destinations"
+      }
+    },
+    "whosTraveling": {
+      "title": "Who's Traveling?",
+      "subtitle": "Tailored experiences for every type of traveler"
+    },
+    "featuredDestinations": {
+      "title": "Explore the World",
+      "subtitle": "From remote wilderness to cultural capitals, discover destinations that inspire"
+    },
+    "whatCallsToYou": {
+      "title": "What Calls to You?",
+      "subtitle": "Choose your adventure style"
+    },
+    "remarkableExperiences": {
+      "title": "Remarkable Experiences",
+      "subtitle": "Our signature journeys designed to create unforgettable moments",
+      "items": [
+        {
+          "title": "The Pursuit of Wonder",
+          "description": "Immersive experiences that awaken your sense of discovery and connect you deeply with extraordinary places.",
+          "image": "/src/assets/unusual-holidays.jpg"
+        },
+        {
+          "title": "Eclipse Service",
+          "description": "Witness nature's most spectacular phenomenon with expertly curated eclipse viewing experiences worldwide.",
+          "image": "/src/assets/remote-destinations.jpg"
+        },
+        {
+          "title": "Bespoke Proposals",
+          "description": "Create the perfect moment with personalized proposal experiences in the world's most romantic locations.",
+          "image": "/src/assets/honeymoons.jpg"
+        }
+      ]
+    },
+    "whyRaou": {
+      "title": "Why RAOU?",
+      "description": "We're a passionate boutique team of travel connoisseurs devoted to curating exquisite journeys that go beyond the ordinary. Each experience is crafted with heartfelt care and sophistication — designed to connect you deeply with the world.",
+      "ctaLabel": "Discover Our Story",
+      "ctaPath": "/about"
+    },
+    "finalCta": {
+      "title": "Ready to Begin?",
+      "description": "Tell us how you like to travel and we'll build something uniquely yours",
+      "ctaLabel": "Start Planning Your Journey",
+      "ctaPath": "/trip-finder"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About RAOU",
+      "subtitle": "Distinctive. Daring. Unforgettable.",
+      "image": "/src/assets/bespoke-travel.jpg"
+    },
+    "whatWereAbout": {
+      "title": "What We're About",
+      "paragraphs": [
+        "We're a passionate boutique team of travel connoisseurs devoted to curating exquisite journeys that go beyond the ordinary. Each experience is crafted with heartfelt care and sophistication — designed to connect you deeply with the world, while inspiring curiosity, gratitude, and a lasting sense of wonder.",
+        "RAOU is a Destination Management Company based in Berlin and Istanbul, providing bespoke services worldwide. Formed by a passionate team of experts with many years of experience in the industry, we specialize in creating exceptional meetings, incentives, and conferences across the globe.",
+        "We are a curated team of travel connoisseurs, dedicated to crafting exceptional journeys that connect our clients meaningfully to the world. Every experience is thoughtfully designed to inspire curiosity, awaken wonder, and invite exploration with elegance, mindfulness, and a true appreciation for the extraordinary.",
+        "At RAOU, we believe travel is transformative – it shapes who you are as much as it reveals the world around you. We design experiences that break down barriers, guiding you toward the extraordinary, the hidden, and the unexpected. Curiosity and a spirit of adventure are your companions – and ours."
+      ]
+    },
+    "philosophy": {
+      "title": "Our Philosophy",
+      "subtitle": "Our team is a curated collective of passionate explorers and meticulous planners. They blend wanderlust with precision, turning the extraordinary into effortless, seamless journeys.",
+      "values": [
+        {
+          "title": "Courage",
+          "description": "We dare to venture beyond the expected, creating bold experiences."
+        },
+        {
+          "title": "Idealism",
+          "description": "We believe in the power of travel to transform and inspire."
+        },
+        {
+          "title": "Curiosity",
+          "description": "We explore with wonder, always seeking the extraordinary."
+        },
+        {
+          "title": "Playfulness",
+          "description": "We infuse joy and spontaneity into every journey."
+        },
+        {
+          "title": "Candour",
+          "description": "We communicate with honesty and transparency."
+        },
+        {
+          "title": "Intuition",
+          "description": "We trust our instincts to craft perfect experiences."
+        },
+        {
+          "title": "Free-Spiritedness",
+          "description": "We embrace the unexpected and celebrate individuality."
+        },
+        {
+          "title": "Persistence",
+          "description": "We're dedicated to exceeding expectations every time."
+        }
+      ]
+    },
+    "whyChooseRaou": {
+      "title": "Why Choose RAOU",
+      "items": [
+        {
+          "title": "Bespoke Expertise",
+          "description": "Years of experience crafting personalized journeys that reflect your unique travel style and desires."
+        },
+        {
+          "title": "Global Connections",
+          "description": "Deep relationships with local partners worldwide ensure authentic, exclusive experiences."
+        },
+        {
+          "title": "Seamless Service",
+          "description": "From initial consultation to your return home, we handle every detail with precision and care."
+        }
+      ]
+    },
+    "commitment": {
+      "title": "Our Commitment",
+      "paragraphs": [
+        "We believe that each event is unique and needs dedication and full commitment to make it a success. In an ever-changing industry, we pride ourselves on having the ability to adapt to any situation, implement new technologies and understand the individual requirements of our clients.",
+        "With their guidance, you don't just travel – you discover, immerse, and leave a mark on the places you visit, even if it means venturing off the beaten path."
+      ]
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "Let's start planning your next adventure"
+    },
+    "form": {
+      "title": "Send us a message",
+      "fields": {
+        "name": "Your Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "subject": "Subject",
+        "message": "Your Message"
+      },
+      "submitButton": "Send Message",
+      "successMessage": "Thank you for your message! We'll get back to you soon."
+    },
+    "officeInfo": {
+      "title": "Our Offices",
+      "offices": [
+        {
+          "city": "Berlin",
+          "address": "Kurfürstendamm 123, 10719 Berlin, Germany",
+          "phone": "+49 30 1234 5678",
+          "email": "berlin@raou.com"
+        },
+        {
+          "city": "Istanbul",
+          "address": "Istiklal Caddesi 456, Beyoğlu, Istanbul, Turkey",
+          "phone": "+90 212 123 4567",
+          "email": "istanbul@raou.com"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "brandName": "raou",
+    "description": "Curated travel experiences that go beyond the ordinary. We craft bespoke journeys designed to inspire curiosity, awaken wonder, and create lasting memories.",
+    "sections": [
+      {
+        "title": "Destinations",
+        "links": [
+          {
+            "label": "South America",
+            "path": "/destinations/south-america"
+          },
+          {
+            "label": "Asia",
+            "path": "/destinations/asia"
+          },
+          {
+            "label": "Europe",
+            "path": "/destinations/europe"
+          },
+          {
+            "label": "Africa",
+            "path": "/destinations/africa"
+          },
+          {
+            "label": "Middle East",
+            "path": "/destinations/middle-east"
+          }
+        ]
+      },
+      {
+        "title": "Experiences",
+        "links": [
+          {
+            "label": "Family Holidays",
+            "path": "/experiences/family"
+          },
+          {
+            "label": "Honeymoons",
+            "path": "/experiences/honeymoons"
+          },
+          {
+            "label": "Safari Holidays",
+            "path": "/experiences/safari"
+          },
+          {
+            "label": "Adventure",
+            "path": "/experiences/adventure"
+          },
+          {
+            "label": "Luxury Travel",
+            "path": "/experiences/luxury"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "label": "About Us",
+            "path": "/about"
+          },
+          {
+            "label": "Our Team",
+            "path": "/about#team"
+          },
+          {
+            "label": "Philosophy",
+            "path": "/about#philosophy"
+          },
+          {
+            "label": "Contact",
+            "path": "/contact"
+          },
+          {
+            "label": "Trip Finder",
+            "path": "/trip-finder"
+          }
+        ]
+      }
+    ],
+    "newsletter": {
+      "title": "Join Our Journey",
+      "description": "Subscribe to receive travel inspiration, exclusive offers, and insider tips.",
+      "placeholder": "Enter your email",
+      "buttonLabel": "Subscribe"
+    },
+    "copyright": "RAOU. All rights reserved."
+  }
+}
